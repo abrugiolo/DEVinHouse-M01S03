@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Lista de Tarefas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/flaticon-list.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="script/script.js" defer></script>
+</head>
+<body>
+  <div class="cabecalho">
+    <h1>Lista de Tarefas</h1>
+  </div>
+
+  <div class="adicionar-tarefa">
+    <input type="text" id="lblTarefa" placeholder="Insira aqui a tarefa a ser adicionada na lista">
+    <button class="btn-acoes" id="btnAdd" onclick="adicionarTarefa()">Adicionar</button>
+    <button class="btn-acoes" id="btnDel" onclick="apagarTudo()">Apagar TUDO</button>
+  </div>
+
+  <div class="lista-tarefas">
+    <ul id="ul-lista"></ul>
+  </div>
+
+  <footer>
+    <div>Ícones por <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a>, em <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </footer>
+</body>
+</html>

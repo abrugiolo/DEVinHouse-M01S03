@@ -1,0 +1,108 @@
+body {
+    margin: 3vw 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 3vh;
+    margin: 3vh 0;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: calc(12px + 2vw);
+}
+
+.adicionar-tarefa {
+    margin-bottom: 3vh;
+    width: 100%;
+    display: inline-flex;
+}
+
+#lblTarefa {
+    padding: .5vw 1vw;
+    width: 100%;
+    font-size: calc(8pt + 1vmin);
+}
+
+.btn-acoes {
+    margin-left: 2vh;
+    padding: 2.5vh;
+    line-height: 0;
+    width: fit-content;
+}
+
+#btnAdd {
+    font-size: calc(8pt + 1vmin);
+}
+
+#btnDel {
+    white-space: nowrap;
+    font-weight: bolder;
+    font-size: calc(5pt + 1vmin);
+}
+
+#ul-lista {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-item {
+    margin-bottom: 2vh;
+    padding: 1vh 0;
+    width: 100%;
+    background-color: #eee;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.333;
+    font-size: calc(7pt + 1vmin);
+}
+
+.chkbx-tarefa {
+    margin: 0 1.5vw;
+    height: 20px;
+    width: 20px;
+}
+
+.lbl-tarefa {
+    width: 100%;
+}
+
+.btn-tarefa {
+    margin: 0 .333vw;
+    width: calc(16px + 1vw);
+    height: calc(16px + 1vw);
+    border: 3px solid transparent;
+    outline:none;
+    font-size: calc(10pt + .5vmin);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn-tarefa:hover {
+    background-color: #ddd;
+}
+
+.btn-editar {
+    margin-left: 1vw;
+    background-image: url("../images/flaticon-edit.svg");
+}
+
+.btn-excluir {
+    margin-right: 1vw;
+    background-image: url("../images/flaticon-delete.svg");
+}
+
+footer {
+    width: 100%;
+    margin-top: 5vh;
+    text-align: right;
+    font-size: 9pt;
+    color: slategrey;
+}
+
+a,
+a:hover,
+a:visited {
+    color: darkslategray;
+}
